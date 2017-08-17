@@ -15,5 +15,10 @@ This should do it:
 If that didn't work, just install the dependencies one by one:
 ```npm install puppeteer mocha babel-core babel-cli```
 
-## Usage
+## Usage (JS)
 ```node index.js```
+
+## Usage (PHP)
+```
+php -S localhost:8000
+```

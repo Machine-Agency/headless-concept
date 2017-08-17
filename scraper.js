@@ -16,15 +16,15 @@ const puppeteer = require('puppeteer');
 	await page.click(selector_loadmore);
 
 	// Wait for the results to show up
-	//await page.waitForSelector('.blog-listing:nth-child(' + next_results_at + ')');
+	await page.waitForSelector('.blog-listing:nth-child(' + next_results_at + ')');
 
 	// Extract the results from the page
 	const links = await page.evaluate(() => {
 	   const anchors = Array.from(document.querySelectorAll( '.blog-listing' ));
 	   return anchors.map(anchor => anchor.textContent);
 	 });
-
-	console.log(links.join('\n'));
+	 //return links.join('\n');
+	console.log(links.join('<br>'));
 	browser.close();
 
 })();
