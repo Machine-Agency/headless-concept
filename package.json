@@ -1,0 +1,11 @@
+{
+  "name": "headless-concept",
+  "version": "1.0.0",
+  "description": "A proof of concept for using JS Scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Machine Agency",
+  "license": "ISC"
+}
