@@ -1,6 +1,6 @@
 # Headless Concept
 
-Please ensure you're using Node.js 7.10... it doesn't seem like 7.13 is working with puppeteer.
+Please ensure you're using Node.js 7.10. Puppeteer doesn't seem like Node 7.13.
 
 ```
 nvm install 7.10
