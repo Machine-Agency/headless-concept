@@ -10,12 +10,10 @@ nvm use 7.10
 ## Installation
 
 This should do it:
-```
-npm install
-node scraper.js
-```
+```npm install ```
 
 If that didn't work, just install the dependencies one by one:
-```
-npm install puppeteer mocha babel-core babel-cli
-```
+```npm install puppeteer mocha babel-core babel-cli```
+
+## Usage
+```node index.js```
